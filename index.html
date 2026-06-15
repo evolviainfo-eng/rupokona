@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="MB Rupokona – profesionalus trinkelių klojimas, bortų įrengimas, drenažas, sklypų apželdinimas Vilniuje. Skambinkite: +370 676 70230" />
+  <title>Rupokona – Trinkelių klojimas Vilniuje</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Manrope:wght@300;400;500;600;700;800&subset=latin,latin-ext&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#hero" class="logo" aria-label="Rupokona – pradinis puslapis">
+        <div class="logo__icon">
+          <svg width="22" height="22" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+            <path d="M11 2L2 8.5V20H8V14H14V20H20V8.5L11 2Z" fill="#C9A030"/>
+            <path d="M8 20V14H14V20" stroke="#C9A030" stroke-width="0.5" fill="none"/>
+            <path d="M6 20V8" stroke="#C9A030" stroke-width="0.3" fill="none" opacity="0.4"/>
+            <rect x="4" y="19" width="14" height="1.5" rx="0.75" fill="#C9A030" opacity="0.7"/>
+          </svg>
+        </div>
+        <span class="logo__text">RUPOKONA</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Pagrindinė navigacija">
+        <a href="#apie" class="nav-link">Apie mus</a>
+        <a href="#paslaugos" class="nav-link">Paslaugos</a>
+        <a href="#portfolio" class="nav-link">Darbai</a>
+        <a href="#kontaktai" class="nav-link">Kontaktai</a>
+      </nav>
+
+      <a href="tel:+37067670230" class="btn btn--gold nav-cta" aria-label="Skambinti +370 676 70230">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.9 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.99 5.99l1.09-1.09a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        Skambinti
+      </a>
+
+      <button class="burger" id="burger" aria-label="Atidaryti meniu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <a href="#apie" class="mobile-link">Apie mus</a>
+      <a href="#paslaugos" class="mobile-link">Paslaugos</a>
+      <a href="#portfolio" class="mobile-link">Darbai</a>
+      <a href="#kontaktai" class="mobile-link">Kontaktai</a>
+      <a href="tel:+37067670230" class="btn btn--gold mobile-cta">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.9 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.99 5.99l1.09-1.09a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        +370 676 70230
+      </a>
+    </div>
+  </header>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" data-parallax>
+      <img
+        src="images/work/p01.jpg"
+        alt="" aria-hidden="true" class="hero__img" loading="eager" />
+      <div class="hero__grade"></div>
+    </div>
+    <div class="grain" aria-hidden="true"></div>
+
+    <div class="container hero__content">
+      <div class="hero__top">
+        <div class="hero__meta reveal">
+          <span class="hero__est">Įkurta MMXVII</span>
+          <span class="hero__loc">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            Vilnius · apylinkės
+          </span>
+        </div>
+      </div>
+
+      <div class="hero__main">
+        <h1 class="hero__title">
+          <span class="hero__line reveal">Trinkelės,</span>
+          <span class="hero__line reveal">paklotos</span>
+          <span class="hero__line reveal"><span class="gold">tvirtai</span> ir tiksliai.</span>
+        </h1>
+
+        <div class="hero__aside">
+          <p class="hero__sub reveal">
+            Kiemų grindimas, bortai, drenažas ir apželdinimas Vilniuje.
+            Devyni metai darbo, kurio nereikia perdaryti.
+          </p>
+          <div class="hero__ctas reveal">
+            <a href="tel:+37067670230" class="btn btn--gold btn--lg">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.9 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.99 5.99l1.09-1.09a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              +370 676 70230
+            </a>
+            <a href="#kontaktai" class="btn btn--ghost btn--lg">Gauti kainą</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__bar reveal">
+        <div class="stat">
+          <span class="stat__num" data-count="9" data-suffix="+">0</span>
+          <span class="stat__label">metų patirtis</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="7">0</span>
+          <span class="stat__label">paslaugų sritys</span>
+        </div>
+        <div class="stat">
+          <span class="stat__num" data-count="50" data-suffix="+">0</span>
+          <span class="stat__label">įgyvendinti kiemai</span>
+        </div>
+        <div class="stat stat--wide">
+          <span class="stat__num stat__num--sm">07–16</span>
+          <span class="stat__label">P–Pn darbo laikas</span>
+        </div>
+      </div>
+    </div>
+
+    <a href="#apie" class="hero__scroll" aria-label="Slinkti žemyn">
+      <span>Žemyn</span>
+      <span class="hero__scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- ========== MARQUEE DIVIDER ========== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee__track">
+      <span>Trinkelių klojimas <i>◆</i> Bortų įrengimas <i>◆</i> Drenažas <i>◆</i> Apželdinimas <i>◆</i> Žemės darbai <i>◆</i> Bobcat <i>◆</i> Transportas <i>◆</i></span>
+      <span>Trinkelių klojimas <i>◆</i> Bortų įrengimas <i>◆</i> Drenažas <i>◆</i> Apželdinimas <i>◆</i> Žemės darbai <i>◆</i> Bobcat <i>◆</i> Transportas <i>◆</i></span>
+    </div>
+  </div>
+
+  <!-- ========== APIE ========== -->
+  <section class="about section" id="apie">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__text">
+          <div class="section-label reveal">Apie mus</div>
+          <h2 class="section-title reveal">Vilniaus kiemų<br /><span class="gold">ekspertai</span></h2>
+          <p class="about__desc reveal">
+            MB Rupokona – tai patikimas statybos ir išorės darbų rangovas, dirbantis Vilniuje ir jo apylinkėse nuo 2017 metų. Per 9 metus sukūrėme dešimtis tvarkingų kiemų, privažiavimų, takų ir apželdintų sklypų.
+          </p>
+          <p class="about__desc reveal">
+            Mes dirbame su privačiais namų savininkais ir statybų įmonėmis – nuo nedidelio tako iki pilno sklypo sutvarkymo. Mūsų komanda žino, kaip svarbu, kad darbas būtų atliktas laiku, kokybiškai ir be papildomų rūpesčių.
+          </p>
+
+          <div class="about__values reveal">
+            <div class="value">
+              <div class="value__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span>Kokybė ir precizija kiekviename darbe</span>
+            </div>
+            <div class="value">
+              <div class="value__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span>Darbai laiku be vėlavimų</span>
+            </div>
+            <div class="value">
+              <div class="value__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span>Skaidri kainodara be staigmenų</span>
+            </div>
+            <div class="value">
+              <div class="value__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              </div>
+              <span>Technika ir komanda – viskas vienoje vietoje</span>
+            </div>
+          </div>
+
+          <a href="tel:+37067670230" class="btn btn--gold reveal">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.9 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.99 5.99l1.09-1.09a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+            </svg>
+            Pasikalbėkime: +370 676 70230
+          </a>
+        </div>
+
+        <div class="about__cards reveal">
+          <div class="about__card about__card--main">
+            <div class="about__card-num gold">9</div>
+            <div class="about__card-label">metų patirtis</div>
+            <div class="about__card-sub">Įkurta 2017 m.</div>
+          </div>
+          <div class="about__card">
+            <div class="about__card-num gold">3</div>
+            <div class="about__card-label">darbuotojai</div>
+          </div>
+          <div class="about__card">
+            <div class="about__card-num gold">~180k</div>
+            <div class="about__card-label">€ apyvarta (2025)</div>
+          </div>
+          <div class="about__card about__card--wide">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="1.5" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <div class="about__card-label">Vilnius ir apylinkės</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PASLAUGOS ========== -->
+  <section class="services section" id="paslaugos">
+    <div class="container">
+      <div class="section-label reveal">Paslaugos</div>
+      <h2 class="section-title reveal">Ką mes <span class="gold">darome</span></h2>
+      <p class="section-desc reveal">Pilnas kiemo įrengimas nuo A iki Z — technika, komanda ir patirtis</p>
+
+      <div class="services__list">
+
+        <a href="#kontaktai" class="srv reveal">
+          <span class="srv__num">01</span>
+          <h3 class="srv__title">Trinkelių ir plytelių klojimas</h3>
+          <p class="srv__desc">Kiemų, privažiavimų, takų ir terasų grindimas trinkelėmis ar plytelėmis. Tinkamas pagrindas, tikslus lygis — paklotis, kuri nesusės.</p>
+          <span class="srv__arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a href="#kontaktai" class="srv reveal">
+          <span class="srv__num">02</span>
+          <h3 class="srv__title">Bortų ir vejos bortų įrengimas</h3>
+          <p class="srv__desc">Betoninių, granito ar plastiko bortų montavimas. Tvarkinga, tiesi riba tarp grindinio ir želdynų.</p>
+          <span class="srv__arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a href="#kontaktai" class="srv reveal">
+          <span class="srv__num">03</span>
+          <h3 class="srv__title">Drenažas ir vandens nuvedimas</h3>
+          <p class="srv__desc">Lietaus vandens surinkimas ir nuvedimas: linijiniai drenažai, lietaus grotelės, vamzdžių klojimas.</p>
+          <span class="srv__arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a href="#kontaktai" class="srv reveal">
+          <span class="srv__num">04</span>
+          <h3 class="srv__title">Sklypų lyginimas ir apželdinimas</h3>
+          <p class="srv__desc">Žemės darbai, lyginimas, juodžemio užpylimas, vejos sėjimas ar rulonų klojimas — sklypas paruoštas gyventi.</p>
+          <span class="srv__arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a href="#kontaktai" class="srv reveal">
+          <span class="srv__num">05</span>
+          <h3 class="srv__title">Krovininio transporto paslaugos</h3>
+          <p class="srv__desc">Skaldos, smėlio, juodžemio ir trinkelių pristatymas bei išvežimas tiesiai į statybvietę.</p>
+          <span class="srv__arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a href="#kontaktai" class="srv reveal">
+          <span class="srv__num">06</span>
+          <h3 class="srv__title">Bobcat ir mini ekskavatorius</h3>
+          <p class="srv__desc">Iškasimas, lyginimas ir perkrovimas siaurose vietose. Greita, tiksli technika ten, kur didelė nepralenda.</p>
+          <span class="srv__arrow" aria-hidden="true">→</span>
+        </a>
+
+        <a href="#kontaktai" class="srv reveal">
+          <span class="srv__num">07</span>
+          <h3 class="srv__title">Kiti bendrastatybiniai darbai</h3>
+          <p class="srv__desc">Betono liejiniai, laiptai, atraminės sienos ir smulkūs statybos darbai — paklauskite, ką galime padėti.</p>
+          <span class="srv__arrow" aria-hidden="true">→</span>
+        </a>
+
+      </div>
+
+      <div class="services__cta reveal">
+        <a href="tel:+37067670230" class="btn btn--gold btn--lg">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.9 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.99 5.99l1.09-1.09a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          Aptarkite savo projektą
+        </a>
+        <a href="#kontaktai" class="btn btn--outline btn--lg">Rašykite žinutę</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO ========== -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-label reveal">Darbų galerija</div>
+      <h2 class="section-title reveal">Mūsų <span class="gold">darbai</span></h2>
+      <p class="section-desc reveal">Kiekvienas projektas – individualiai suprojektuotas ir kruopščiai įgyvendintas</p>
+    </div>
+
+    <div class="gallery reveal">
+      <div class="gallery__item gallery__item--tall">
+        <img src="images/work/p13.jpg" alt="Trinkelėmis grįstas privažiavimo takas tarp modernių namų Vilniuje" loading="lazy" />
+        <div class="gallery__overlay"><span>Privažiavimas ir takai</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="images/work/p08.jpg" alt="Kiemo grindimas trinkelėmis prie tamsių mūrinių namų" loading="lazy" />
+        <div class="gallery__overlay"><span>Kiemo grindimas</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="images/work/p09.jpg" alt="Terasa ir takai prie modernaus juodo mūro namo" loading="lazy" />
+        <div class="gallery__overlay"><span>Terasa ir takai</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="images/work/p11.jpg" alt="Trinkelių laiptai ir įvažiavimas prie namo įėjimo" loading="lazy" />
+        <div class="gallery__overlay"><span>Laiptai ir įvažiavimas</span></div>
+      </div>
+      <div class="gallery__item gallery__item--tall">
+        <img src="images/work/p14.jpg" alt="Ekologiškos vejos grotelės su betoniniu bortu prie tvoros" loading="lazy" />
+        <div class="gallery__overlay"><span>Vejos grotelės</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="images/work/p06.jpg" alt="Trinkelėmis grįsta terasa prie pavėsinės sodyboje" loading="lazy" />
+        <div class="gallery__overlay"><span>Terasa prie pavėsinės</span></div>
+      </div>
+      <div class="gallery__item">
+        <img src="images/work/p03.jpg" alt="Ekologiškos grotelinės trinkelės kieme prie namo" loading="lazy" />
+        <div class="gallery__overlay"><span>Ekologiškos grotelės</span></div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="portfolio__cta reveal">
+        <p>Norite pamatyti daugiau? Skambinkite ir aptarkime jūsų projektą.</p>
+        <a href="tel:+37067670230" class="btn btn--gold">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.9 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.99 5.99l1.09-1.09a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          +370 676 70230
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== KONTAKTAI ========== -->
+  <section class="contact section" id="kontaktai">
+    <div class="container">
+      <div class="section-label reveal">Susisiekite</div>
+      <h2 class="section-title reveal">Gaukite <span class="gold">kainą</span></h2>
+      <p class="section-desc reveal">Palikite žinutę arba skambinkite — atsakysime greitai</p>
+
+      <div class="contact__grid">
+        <!-- Form -->
+        <div class="contact__form-wrap reveal">
+          <form class="contact__form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name">Vardas *</label>
+              <input type="text" id="name" name="name" placeholder="Jūsų vardas" required autocomplete="given-name" />
+              <span class="form-error" id="nameError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="phone">Telefono numeris *</label>
+              <input type="tel" id="phone" name="phone" placeholder="+370 6XX XXXXX" required autocomplete="tel" inputmode="tel" />
+              <span class="form-error" id="phoneError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">El. paštas</label>
+              <input type="email" id="email" name="email" placeholder="jusu@pastas.lt" autocomplete="email" inputmode="email" />
+              <span class="form-error" id="emailError" role="alert"></span>
+            </div>
+            <div class="form-group">
+              <label for="message">Žinutė *</label>
+              <textarea id="message" name="message" placeholder="Aprašykite savo projektą: kur, koks plotas, kokia paslauga..." rows="5" required></textarea>
+              <span class="form-error" id="messageError" role="alert"></span>
+            </div>
+            <button type="submit" class="btn btn--gold btn--full" id="submitBtn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+              Siųsti užklausą
+            </button>
+          </form>
+
+          <div class="form-success" id="formSuccess" aria-live="polite" hidden>
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/><polyline points="20 6 9 17 4 12"/>
+            </svg>
+            <h3>Užklausa išsiųsta!</h3>
+            <p>Susisieksime su jumis artimiausiu metu. Arba skambinkite tiesiai: <a href="tel:+37067670230">+370 676 70230</a></p>
+          </div>
+        </div>
+
+        <!-- Info + Map -->
+        <div class="contact__info reveal">
+          <div class="contact__details">
+            <a href="tel:+37067670230" class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.9 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.99 5.99l1.09-1.09a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-item__label">Telefonas</div>
+                <div class="contact-item__val">+370 676 70230</div>
+              </div>
+            </a>
+
+            <a href="mailto:rupokona@gmail.com" class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22 6 12 13 2 6"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-item__label">El. paštas</div>
+                <div class="contact-item__val">rupokona@gmail.com</div>
+              </div>
+            </a>
+
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-item__label">Adresas</div>
+                <div class="contact-item__val">Karklėnų g. 23-34<br />LT-11223, Vilnius</div>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+                  <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-item__label">Darbo laikas</div>
+                <div class="contact-item__val">Pirmadienis–Penktadienis<br />07:00–16:00</div>
+              </div>
+            </div>
+
+            <a href="https://www.facebook.com/trinkeliuklojimatransportopaslaugos/" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <div class="contact-item__icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#C9A030" stroke-width="2" aria-hidden="true">
+                  <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-item__label">Facebook</div>
+                <div class="contact-item__val">Rupokona</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="contact__map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2303.5!2d25.3010!3d54.7090!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dd93d6bbbbbbbb%3A0x0!2zS2Fya2zEk27FsyBnLiAyMy0zNCwgVmlsbml1cw!5e0!3m2!1slt!2slt!4v1700000000000!5m2!1slt!2slt"
+              width="100%"
+              height="220"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="Rupokona biuro žemėlapis – Karklėnų g. 23-34, Vilnius"
+              aria-label="Žemėlapis su Rupokona adresu Vilniuje"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#hero" class="logo" aria-label="Rupokona – atgal į viršų">
+        <div class="logo__icon">
+          <svg width="18" height="18" viewBox="0 0 22 22" fill="none" aria-hidden="true">
+            <path d="M11 2L2 8.5V20H8V14H14V20H20V8.5L11 2Z" fill="#C9A030"/>
+            <rect x="4" y="19" width="14" height="1.5" rx="0.75" fill="#C9A030" opacity="0.7"/>
+          </svg>
+        </div>
+        <span class="logo__text">RUPOKONA</span>
+      </a>
+
+      <div class="footer__center">
+        <p>Trinkelių klojimas · Bortai · Drenažas · Apželdinimas</p>
+        <p class="footer__copy">&copy; 2025 MB Rupokona · Įmonės kodas 304586389 · Vilnius</p>
+      </div>
+
+      <div class="footer__right">
+        <a href="tel:+37067670230" class="btn btn--gold btn--sm">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.9 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.99 5.99l1.09-1.09a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+          </svg>
+          Skambinti
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating call button (mobile) -->
+  <a href="tel:+37067670230" class="fab" aria-label="Skambinti +370 676 70230">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.99 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.9 1.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 8.91a16 16 0 0 0 5.99 5.99l1.09-1.09a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
