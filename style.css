@@ -344,6 +344,7 @@ textarea { resize: vertical; }
   font-family: var(--display); font-weight: 400; font-size: 3.4rem;
   line-height: 0.9; color: var(--gold); margin-bottom: 10px;
 }
+.about__card:not(.about__card--wide) svg { display: block; margin-bottom: 14px; }
 .about__card-label { font-size: 14px; color: var(--text); font-weight: 600; }
 .about__card-sub { font-size: 12px; color: var(--stone); margin-top: 5px; }
 
